@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;   
+    justify-content: center;
+    background-image: url(https://cdn.culture.ru/images/83a1912e-5f13-51d9-9b17-d5c9eebcace6);
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    
+}
+.main{
+    width: 400px;
+    height: 400px;
+    border: 3px solid violet;
+    background-image:url(https://i.pinimg.com/originals/0c/89/2a/0c892abba498507884e9e6fe1d78ea64.gif) ;
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    box-shadow: 0px 0px 10px 10px blue;
+    transition: 2s;
+
+}
+.main:hover{
+    transform: rotate(360deg);
+    width:300px;
+    height: 400px;
+    box-shadow: 0px 0px 10px 10px rgba(0, 255, 251, 0.379);
+
+}
+audio:hover{
+    transform: scale(1.5);
+    transition: 3s;
+}
